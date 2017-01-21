@@ -1,0 +1,10 @@
+<h3>MSFA containing Morpheme <%= @form %></h3>
+<!--%= find_link(@morpheme_sets, @form) %-->
+<table>
+  <% @morpheme_sets.each do |ms| %>
+    <tr>
+    <td><%= highlight(ms.form, '/' + @form + '/') %></td>
+    <td><%= link_to(ms.sentence.filename, :controller=>"sentence", :action=>"show_html", :id=>ms) %>
+    </tr>
+  <% end %>
+</table>

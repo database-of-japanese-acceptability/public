@@ -1,0 +1,19 @@
+
+<div style='text-align:right'><%= flash[:message] %></div>
+<!--%= search_link(@s_morphemes, @keyword) %-->
+<h3>Morph List</h3>
+<%= render :partial => 'layouts/search_and_filter' %>
+<%= render :partial => 'layouts/order_by' %>
+<table>
+  <% i = 0; num_columns = 6; mod = 0 %>
+  <% @s_morphemes.each do |sm| %>
+    <%  i += 1; mod = i % num_columns %>
+    <%= "<tr>"  if mod == 1 %>
+    <% label = (sm.form == "" ? "NULL" : sm.form) %>   
+    <td><%= link_to(label + " (" + sm.morphemes_count.to_s + ")", :action=>"specify", :id => sm) %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (num_columns - mod) + "</tr>" %>
+  <% end %>
+</table>

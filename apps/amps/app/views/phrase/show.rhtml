@@ -1,0 +1,9 @@
+<h3>Breakdown of MSFA containing <%= @form %></h3>
+<table>
+  <% @sentences.each do |s| %>
+    <tr>
+    <td><%= s.morpheme_set.form %></td>
+    <td><%= link_to(s.filename, :controller=>"sentence", :action=>"show_html", :id=>s) %>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,38 @@
+
+<div style='text-align:right'><%= flash[:message] %></div>
+<!--%= search_link(@s_frames, @keyword) %-->
+<h3>Frame List</h3>
+<%= render :partial => 'layouts/search_and_filter' %>
+<%= render :partial => 'layouts/order_by' %>
+<div  style='margin-right:20px; float:left'>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @nonspecifiers.each do |sf| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <% label = (sf.form == "" ? "NULL" : sf.form) %>
+    <td><%= link_to(label + " (" + sf.frames_count.to_s + ")", :action=>"specify", :id => sf) %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+</div>
+
+<div>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @specifiers.each do |sf| %>
+    <%  i += 1; mod = i % 2 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%= link_to(sf.form + " (" + sf.frames_count.to_s + ")", :action=>"specify", :id => sf) %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (2 - mod) + "</tr>" %>
+  <% end %>
+</table>
+</div>
+
+<div style='clear:both;'></div>

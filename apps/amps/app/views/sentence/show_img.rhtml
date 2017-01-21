@@ -1,0 +1,12 @@
+<%= javascript_include_tag '/javascripts/prototype' %>
+<%= javascript_include_tag '/javascripts/effects' %>
+<%= javascript_include_tag '/javascripts/application' %>
+<%= javascript_include_tag '/javascripts/controls' %>
+<%= javascript_include_tag '/javascripts/drag_scrollable' %>
+<%= render :partial => 'control' %>
+<div id ='msfa'>
+<img src='<%= url_for :controller => :sentence, :action => :generate_img, :id => @id %>.png'>
+</div>
+<script>
+new DragScrollable('msfa');
+</script>

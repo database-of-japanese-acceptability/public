@@ -1,0 +1,11 @@
+<div class='order_by'>
+  <% params_org = @params.dup %>
+  <% @params[:order_by] = :freq; fparams = @params.dup %>
+  <% @params[:order_by] = :alpha; aparams = @params.dup %>
+  <% @params[:order_by] = :length; lparams = @params.dup %>
+  <% @params = params_org %>
+  order by |
+  <%= @params[:order_by] == "freq"  ? "<b>freqency</b>" : link_to("frequency", fparams) %> |
+  <%= @params[:order_by] == "alpha" ? "<b>alphabetical</b>" : link_to("alphabetical", aparams) %> |
+  <%= @params[:order_by] == "length" ? "<b>length</b>" : link_to("length", lparams) %> |
+</div>

@@ -1,0 +1,16 @@
+<div style='text-align:right'><%= flash[:message] %></div>
+<h3>Relation List</h3>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @sr_array.each do |key, value| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <% size = value.inject(0){|result,item| result += item.relations.size} %>
+    <td><%= link_to(key + " (" + size.to_s + ")", :action=>"specify", 
+            :id => value.collect(&:id).join('-')) %></td></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>

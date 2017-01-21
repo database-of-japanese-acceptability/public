@@ -1,0 +1,13 @@
+<p>
+<%= @pages.item_count %> 件中
+<%= @pages.current.first_item %> - <%= @pages.current.last_item %> 件目<br />
+<% if @keyword and @keyword != ""%>
+  <%= link_to "前へ", :search => {:text => @keyword}, :page=>@pages.current.previous if @pages.current.previous %>
+  <%= pagination_links @pages, :window_size=>10 %>
+  <%= link_to "次へ", :search => {:text => @keyword}, :page=>@pages.current.next if @pages.current.next %> 
+<% else %>
+  <%= link_to "前へ",  :page=>@pages.current.previous if @pages.current.previous %>
+  <%= pagination_links @pages, :window_size=>10 %>
+  <%= link_to "次へ",  :page=>@pages.current.next if @pages.current.next %> 
+<% end %>
+</p>

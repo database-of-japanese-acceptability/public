@@ -1,0 +1,17 @@
+<div id='wiki_body'>
+<h1><%= @page.title %></h1>
+<%= @page.body %>
+</div>
+<div id='wiki_footer'>
+<%= "page created: " + @page.created_at.to_s %><br />
+<%= " updated: " + @page.updated_at.to_s %>
+<% if !$conf[:authenticate] or logged_in? %> 
+  <p>
+  <%= link_to("[編集]", :action => :edit, :id => @page) %>&nbsp;
+  <% unless @page.identifier == "index" %>
+    <%= link_to("[削除]", {:action => :delete, :id => @page}, :confirm => '削除してよろしいですか？') %>
+  <% end %>
+  </p>
+<% end %>
+</div>
+

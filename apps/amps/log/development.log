@@ -1,0 +1,349 @@
+# Logfile created on Sun Jan 01 12:03:06 +0000 2017  [4;36;1mWiki Load (0.005881)[0m   [0;1mSELECT * FROM wikis [0m
+  [4;35;1mSQL (0.002898)[0m   [0mSELECT count(*) AS count_all FROM sentences [0m
+  [4;36;1mSQL (0.024358)[0m   [0;1mSELECT count(*) AS count_all FROM morphemes [0m
+  [4;35;1mSQL (0.010519)[0m   [0mSELECT count(*) AS count_all FROM frames [0m
+  [4;36;1mSQL (0.046258)[0m   [0;1mSELECT count(*) AS count_all FROM primitives [0m
+  [4;35;1mSQL (0.001617)[0m   [0mSELECT count(*) AS count_all FROM s_morphemes [0m
+  [4;36;1mSQL (0.001494)[0m   [0;1mSELECT count(*) AS count_all FROM s_frames [0m
+  [4;35;1mSQL (0.001625)[0m   [0mSELECT count(*) AS count_all FROM s_elements [0m
+  [4;36;1mSQL (0.001539)[0m   [0;1mSELECT count(*) AS count_all FROM s_phrases [0m
+  [4;35;1mSQL (0.001668)[0m   [0mSELECT count(*) AS count_all FROM relations [0m
+  [4;36;1mSQL (0.001371)[0m   [0;1mSELECT count(*) AS count_all FROM s_relations [0m
+  [4;35;1mSQL (0.001403)[0m   [0mSELECT count(*) AS count_all FROM s_morpheme_sets [0m
+  [4;36;1mSQL (0.001485)[0m   [0;1mSELECT count(*) AS count_all FROM s_frame_sets [0m
+  [4;35;1mSQL (0.001674)[0m   [0mSELECT count(*) AS count_all FROM constructions [0m
+
+
+Processing WikiController#index (for 172.17.0.1 at 2017-01-01 12:22:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"controller"=>"wiki", "action"=>"index"}
+  [4;36;1mWiki Load (0.001999)[0m   [0;1mSELECT * FROM wikis WHERE (identifier = 'index') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering wiki/show
+Completed in 0.03962 (25 reqs/sec) | Rendering: 0.03246 (81%) | DB: 0.10579 (267%) | 200 OK [http://localhost/]
+
+
+Processing SentenceController#list (for 172.17.0.1 at 2017-01-01 12:22:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"controller"=>"sentence", "action"=>"list"}
+  [4;35;1mSentence Load (0.006407)[0m   [0mSELECT * FROM sentences ORDER BY filename[0m
+Rendering template within layouts/application
+Rendering sentence/list
+Rendered layouts/_search_box (0.00581)
+  [4;36;1mMorphemeSet Load (0.011272)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 255) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001709)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 254) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001558)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 253) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001508)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 252) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001431)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 251) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001391)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 250) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001429)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 249) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001634)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 248) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001831)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 247) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001464)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 246) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001351)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 245) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001511)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 244) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001685)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 243) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001430)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 242) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001626)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 241) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001464)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 240) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001386)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 239) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001983)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 238) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001850)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 237) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001513)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 236) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001515)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 235) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.002293)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 234) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001812)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 233) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001411)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 232) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001977)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 231) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001957)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 230) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001737)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 229) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001790)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 228) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001552)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 227) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001401)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 226) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001521)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 225) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001636)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 224) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001601)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 223) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001659)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 222) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001683)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 221) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001475)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 220) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001433)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 219) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001593)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 218) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001537)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 217) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001422)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 216) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001747)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 215) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001589)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 214) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001720)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 213) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001681)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 212) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001569)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 211) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001527)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 210) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001534)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 209) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001891)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 208) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001545)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 207) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001426)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 206) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.002161)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 205) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001561)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 204) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001356)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 203) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001396)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 202) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001387)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 201) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001516)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 200) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001568)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 199) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001395)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 198) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001715)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 256) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001801)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 196) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001395)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 195) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001388)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 194) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001880)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 193) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001438)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 192) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001378)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 191) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001390)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 190) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001847)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 189) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001484)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 188) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.002277)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 187) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001558)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 186) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001422)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 185) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001363)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 184) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001409)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 183) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001882)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 182) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001718)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 181) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001372)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 180) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001551)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 179) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.002060)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 178) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001367)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 177) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001401)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 176) LIMIT 1[0m
+  [4;36;1mMorphemeSet Load (0.001733)[0m   [0;1mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 175) LIMIT 1[0m
+  [4;35;1mMorphemeSet Load (0.001487)[0m   [0mSELECT * FROM morpheme_sets WHERE (morpheme_sets.sentence_id = 257) LIMIT 1[0m
+Completed in 0.27046 (3 reqs/sec) | Rendering: 0.10296 (38%) | DB: 0.14732 (54%) | 200 OK [http://localhost/sentence/list]
+
+
+Processing FrameController#list (for 172.17.0.1 at 2017-01-01 12:22:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"order_by"=>"freq", "controller"=>"frame", "action"=>"list"}
+  [4;36;1mSFrame Load (0.009223)[0m   [0;1mSELECT * FROM s_frames WHERE (frames_count > 1) ORDER BY frames_count DESC[0m
+Rendering template within layouts/application
+Rendering frame/list
+Rendered layouts/_search_and_filter (0.00648)
+Rendered layouts/_order_by (0.00582)
+Completed in 0.11080 (9 reqs/sec) | Rendering: 0.07970 (71%) | DB: 0.00922 (8%) | 200 OK [http://localhost/frame/list]
+
+
+Processing PrimitiveController#list (for 172.17.0.1 at 2017-01-01 12:22:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"controller"=>"primitive", "action"=>"list"}
+  [4;35;1mSElement Load (0.026753)[0m   [0mSELECT * FROM s_elements WHERE (primitives_count > 1 AND cls = 'Evoker') ORDER BY primitives_count DESC[0m
+  [4;36;1mSElement Load (0.003548)[0m   [0;1mSELECT * FROM s_elements WHERE (primitives_count > 1 AND cls = 'Constant') ORDER BY primitives_count DESC[0m
+  [4;35;1mSElement Load (0.005492)[0m   [0mSELECT * FROM s_elements WHERE (primitives_count > 1 AND cls = 'Nonevoker') ORDER BY primitives_count DESC[0m
+Rendering template within layouts/application
+Rendering primitive/list
+Rendered layouts/_search_and_filter (0.00402)
+Completed in 0.17532 (5 reqs/sec) | Rendering: 0.11264 (64%) | DB: 0.03579 (20%) | 200 OK [http://localhost/primitive]
+
+
+Processing ApplicationController#index (for 172.17.0.1 at 2017-01-01 12:22:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/swfobject.js" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:1441:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing.rb:1424:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/rack/adapter/rails.rb:86:in `call'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/rack/adapter/rails.rb:74:in `call'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/connection.rb:76:in `pre_process'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/connection.rb:74:in `catch'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/connection.rb:74:in `pre_process'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/connection.rb:57:in `process'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/connection.rb:42:in `receive_data'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/eventmachine-1.2.1/lib/eventmachine.rb:194:in `run_machine'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/eventmachine-1.2.1/lib/eventmachine.rb:194:in `run'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/backends/base.rb:57:in `start'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/server.rb:156:in `start'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/controllers/controller.rb:80:in `start'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/runner.rb:177:in `send'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/runner.rb:177:in `run_command'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/lib/thin/runner.rb:143:in `run!'
+    /root/.rbenv/versions/1.8.7-p375/lib/ruby/gems/1.8/gems/thin-1.2.5/bin/thin:6
+    /root/.rbenv/versions/1.8.7-p375/bin/thin:19:in `load'
+    /root/.rbenv/versions/1.8.7-p375/bin/thin:19
+
+Rendering /root/src/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing GraphController#pie (for 172.17.0.1 at 2017-01-01 12:22:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"links"=>["#evokers", "#nonevokers", "#constants"], "controller"=>"graph", "action"=>"pie", "items"=>["FrameElements (Evokers)", "FrameElements (NonEvokers)", "ConstantElements"], "values"=>["165", "185", "528"]}
+Completed in 0.00130 (766 reqs/sec) | Rendering: 0.00006 (4%) | DB: 0.00000 (0%) | 200 OK [http://localhost/graph/pie?items%5B%5D=FrameElements+%28Evokers%29&items%5B%5D=FrameElements+%28NonEvokers%29&items%5B%5D=ConstantElements&links%5B%5D=%23evokers&links%5B%5D=%23nonevokers&links%5B%5D=%23constants&values%5B%5D=165&values%5B%5D=185&values%5B%5D=528]
+
+
+Processing RelationController#list (for 172.17.0.1 at 2017-01-01 12:22:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"controller"=>"relation", "action"=>"list"}
+  [4;36;1mSRelation Load (0.003488)[0m   [0;1mSELECT * FROM s_relations [0m
+Rendering template within layouts/application
+Rendering relation/list
+Completed in 0.07859 (12 reqs/sec) | Rendering: 0.03521 (44%) | DB: 0.00349 (4%) | 200 OK [http://localhost/relation/list]
+
+
+Processing MorphemeController#list (for 172.17.0.1 at 2017-01-01 12:22:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"order_by"=>"freq", "controller"=>"morpheme", "action"=>"list"}
+  [4;35;1mSMorpheme Load (0.010375)[0m   [0mSELECT * FROM s_morphemes WHERE (morphemes_count > 1) ORDER BY morphemes_count DESC[0m
+Rendering template within layouts/application
+Rendering morpheme/list
+Rendered layouts/_search_and_filter (0.00370)
+Rendered layouts/_order_by (0.00310)
+Completed in 0.10654 (9 reqs/sec) | Rendering: 0.07253 (68%) | DB: 0.01038 (9%) | 200 OK [http://localhost/morpheme/list]
+
+
+Processing PhraseController#list (for 172.17.0.1 at 2017-01-01 12:23:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"order_by"=>"freq", "controller"=>"phrase", "action"=>"list"}
+  [4;36;1mSPhrase Load (0.025785)[0m   [0;1mSELECT * FROM s_phrases WHERE (phrases_count > 1) ORDER BY phrases_count DESC[0m
+Rendering template within layouts/application
+Rendering phrase/list
+Rendered layouts/_search_and_filter (0.00378)
+Rendered layouts/_order_by (0.00321)
+Completed in 0.17219 (5 reqs/sec) | Rendering: 0.11360 (65%) | DB: 0.02578 (14%) | 200 OK [http://localhost/phrase/list]
+
+
+Processing AccountController#login (for 172.17.0.1 at 2017-01-01 12:23:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"controller"=>"account", "action"=>"login"}
+Rendering template within layouts/application
+Rendering account/login
+Completed in 0.02517 (39 reqs/sec) | Rendering: 0.02451 (97%) | DB: 0.00000 (0%) | 200 OK [http://localhost/account/login]
+
+
+Processing AccountController#login (for 172.17.0.1 at 2017-01-01 12:23:07) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--8f91d4257414117502594de171c0b7296efa66cb
+  Parameters: {"password"=>"test", "controller"=>"account", "commit"=>"Log in", "action"=>"login", "login"=>"test"}
+  [4;35;1mUser Load (0.001826)[0m   [0mSELECT * FROM users WHERE (users."login" = 'test') LIMIT 1[0m
+Redirected to http://localhost:4001/account
+Completed in 0.10442 (9 reqs/sec) | DB: 0.00183 (1%) | 302 Found [http://localhost/account/login]
+
+
+Processing AccountController#index (for 172.17.0.1 at 2017-01-01 12:23:07) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiG0xvZ2dlZCBpbiBzdWNjZXNzZnVsbHkGOgpAdXNl%0AZHsGOwZUOg5yZXR1cm5fdG8wOgl1c2VyaQY%3D--c823d9784c5e0c0613403c24abc2e017981d24be
+  Parameters: {"controller"=>"account", "action"=>"index"}
+  [4;36;1mUser Load (0.001541)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+Redirected to http://localhost:4001/
+Completed in 0.06364 (15 reqs/sec) | DB: 0.00154 (2%) | 302 Found [http://localhost/account]
+  [4;35;1mWiki Load (0.005212)[0m   [0mSELECT * FROM wikis [0m
+  [4;36;1mSQL (0.002736)[0m   [0;1mSELECT count(*) AS count_all FROM sentences [0m
+  [4;35;1mSQL (0.022825)[0m   [0mSELECT count(*) AS count_all FROM morphemes [0m
+  [4;36;1mSQL (0.009993)[0m   [0;1mSELECT count(*) AS count_all FROM frames [0m
+  [4;35;1mSQL (0.045047)[0m   [0mSELECT count(*) AS count_all FROM primitives [0m
+  [4;36;1mSQL (0.001504)[0m   [0;1mSELECT count(*) AS count_all FROM s_morphemes [0m
+  [4;35;1mSQL (0.001783)[0m   [0mSELECT count(*) AS count_all FROM s_frames [0m
+  [4;36;1mSQL (0.002065)[0m   [0;1mSELECT count(*) AS count_all FROM s_elements [0m
+  [4;35;1mSQL (0.001807)[0m   [0mSELECT count(*) AS count_all FROM s_phrases [0m
+  [4;36;1mSQL (0.001420)[0m   [0;1mSELECT count(*) AS count_all FROM relations [0m
+  [4;35;1mSQL (0.001284)[0m   [0mSELECT count(*) AS count_all FROM s_relations [0m
+  [4;36;1mSQL (0.001962)[0m   [0;1mSELECT count(*) AS count_all FROM s_morpheme_sets [0m
+  [4;35;1mSQL (0.001765)[0m   [0mSELECT count(*) AS count_all FROM s_frame_sets [0m
+  [4;36;1mSQL (0.001376)[0m   [0;1mSELECT count(*) AS count_all FROM constructions [0m
+
+
+Processing WikiController#index (for 172.17.0.1 at 2017-01-01 12:23:08) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoOcmV0dXJuX3RvMDoJdXNlcmkG--916644f22f2170717b916d4c6f77908f20018b98
+  Parameters: {"controller"=>"wiki", "action"=>"index"}
+  [4;35;1mWiki Load (0.001553)[0m   [0mSELECT * FROM wikis WHERE (identifier = 'index') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering wiki/show
+  [4;36;1mUser Load (0.001434)[0m   [0;1mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+Completed in 0.07321 (13 reqs/sec) | Rendering: 0.06573 (89%) | DB: 0.10377 (141%) | 200 OK [http://localhost/]
+  [4;35;1mSentence Load (0.005008)[0m   [0mSELECT * FROM sentences ORDER BY filename[0m
+  [4;36;1mSentence Load (0.001645)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101003-001.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001420)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101003-002.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001326)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001292)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001381)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-004.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001307)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-005.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001318)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-006.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001315)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-007.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001367)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101004-008.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001340)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-001.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001322)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-003.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001343)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-004.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001600)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-005.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001509)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-006.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001426)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-008.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001307)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-009.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001374)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-010.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001366)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-011.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001249)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-012.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001321)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-013.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001326)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-014.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001360)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-015.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001338)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-016.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001559)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-017.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001279)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-019.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001449)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-020.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001293)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-021.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001318)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-022.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001304)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-024.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001335)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-025.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001337)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-026.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001482)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-027.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001649)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-029.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001343)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-030.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001555)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-032.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001318)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-033.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001294)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-034.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001542)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-036.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001314)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-038.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001329)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-039.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001309)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101008-040.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001545)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101009-001.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001607)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101009-003.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001617)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101009-004.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001785)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001383)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001275)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-004.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001328)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-005.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001256)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-007.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001445)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-008.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001632)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-011.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001420)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101011-012.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001282)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101014-001.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001336)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950101014-002.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001347)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950103036-001.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001593)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950103036-002.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001249)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950104127-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001294)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950104127-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001382)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950104127-004.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001771)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950104160-006.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001427)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950105185-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001378)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950105185-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001347)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950106060-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001378)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950106060-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001427)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-003.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001302)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-004.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001518)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-005.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001383)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-006.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001296)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-008.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001248)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-009.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001324)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-015.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001270)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950108025-016.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001308)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950113241-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001339)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950113241-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001297)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950113241-004.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001321)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950113241-005.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001332)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950116036-002.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001971)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950116036-003.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001810)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950116036-004.xml') LIMIT 1[0m
+  [4;35;1mSentence Load (0.001447)[0m   [0mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950116036-005.xml') LIMIT 1[0m
+  [4;36;1mSentence Load (0.001412)[0m   [0;1mSELECT * FROM sentences WHERE (filename = 'msfa-lite-950116036-006.xml') LIMIT 1[0m
+
+
+Processing MsfaController#upload (for 172.17.0.1 at 2017-01-01 12:23:17) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoOcmV0dXJuX3RvMDoJdXNlcmkG--916644f22f2170717b916d4c6f77908f20018b98
+  Parameters: {"controller"=>"msfa", "action"=>"upload"}
+  [4;35;1mUser Load (0.001525)[0m   [0mSELECT * FROM users WHERE (users."id" = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering msfa/upload
+Rendered msfa/_file_list (0.05398)
+Completed in 0.13233 (7 reqs/sec) | Rendering: 0.08721 (65%) | DB: 0.12018 (90%) | 200 OK [http://localhost/msfa/upload]

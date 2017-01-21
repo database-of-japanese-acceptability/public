@@ -1,0 +1,2957 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>LEE</Author>
+  <LastAuthor>Yoichiro Hasebe</LastAuthor>
+  <Created>2007-07-17T07:28:47Z</Created>
+  <LastSaved>2008-02-12T06:04:05Z</LastSaved>
+  <Company>NICT</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#DD0806</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#1FB714</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000D4</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FCF305</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#F20884</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00ABEA</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#900000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#006411</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000090</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#90713A</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#4600A5</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>2805</WindowTopX>
+  <WindowTopY>195</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Osaka" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="950101008-032">
+  <Table ss:ExpandedColumnCount="20" ss:ExpandedRowCount="87" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s24" ss:DefaultColumnWidth="66"
+   ss:DefaultRowHeight="13.5">
+   <Column ss:Index="15" ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:Index="17" ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="70.5" ss:Span="1"/>
+   <Column ss:Index="20" ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Frame ID</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F0</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F1</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F2</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F3</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F4</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F5</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F6</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F7</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F8</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F9</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F10</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F11</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F12</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F13</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F14</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F15</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F16</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F17</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;F&quot;&amp;COLUMN()-2"><Data
+      ss:Type="String">F18</Data></Cell>
+   </Row>
+   <Row ss:Height="67.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Frame-to-Frame Relations</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"
+     ss:Formula="=&quot;presupposes &quot;&amp;R[-1]C[-1]&amp;&quot;; prespares &quot;&amp;R[-1]C[3]&amp;&quot;; targets &quot;&amp;R[-1]C[1]"><Data
+      ss:Type="String">presupposes F5; prespares F9; targets F7</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;targets &quot;&amp;R[-1]C[1]"><Data
+      ss:Type="String">targets F9</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;targets &quot;&amp;R[-1]C[1]"><Data
+      ss:Type="String">targets F11</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;characterizes &quot;&amp;R[-1]C[3]"><Data
+      ss:Type="String">characterizes F14</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;presumes &quot;&amp;R[-1]C[2]"><Data
+      ss:Type="String">presumes F14</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;targets &quot;&amp;R[-1]C[1]"><Data
+      ss:Type="String">targets F14</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;presupposes &quot;&amp;R[-1]C[-2]"><Data
+      ss:Type="String">presupposes F12</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;presupposes &quot;&amp;R[-1]C[-3]"><Data
+      ss:Type="String">presupposes F12</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;presupposes &quot;&amp;R[-1]C[-2]"><Data
+      ss:Type="String">presupposes F14</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23" ss:Formula="=&quot;presupposes &quot;&amp;R[-1]C[-3]"><Data
+      ss:Type="String">presupposes F15</Data></Cell>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Frame Name</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Setting</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">アタイシテイヘンコウ</PhoneticText><Data
+      ss:Type="String">値の指定[変項の]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ケイカジカン</PhoneticText><Data
+      ss:Type="String">経過[時間の]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">シュウケツジタイ</PhoneticText><Data
+      ss:Type="String">終結[事態の]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">センソウ</PhoneticText><Data
+      ss:Type="String">戦争</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">コウソウ</PhoneticText><Data
+      ss:Type="String">抗争</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ホウカイ</PhoneticText><Data
+      ss:Type="String">崩壊[+metaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ショウメツ</PhoneticText><Data
+      ss:Type="String">消滅</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヨウキュウ</PhoneticText><Data
+      ss:Type="String">要求</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">キタイ</PhoneticText><Data
+      ss:Type="String">期待</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">テンボウ</PhoneticText><Data
+      ss:Type="String">展望[+metaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヨケン</PhoneticText><Data
+      ss:Type="String">予見</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ドウメイ</PhoneticText><Data
+      ss:Type="String">同盟</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">コウチク</PhoneticText><Data
+      ss:Type="String">構築[+metaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ケイセイ</PhoneticText><Data
+      ss:Type="String">形成[関係の]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">コウショウテキ</PhoneticText><Data
+      ss:Type="String">交渉[国際的]</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ギロン</PhoneticText><Data
+      ss:Type="String">議論</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ジュウヨウセイシテイ</PhoneticText><Data
+      ss:Type="String">重要性の指定</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">モクヒョウシテイコウイ</PhoneticText><Data
+      ss:Type="String">目標の指定[行為の]</Data></Cell>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">%% Predicate for GOV</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ケイカ</PhoneticText><Data
+      ss:Type="String">経過した</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">シュウケツ</PhoneticText><Data
+      ss:Type="String">終結した</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=R3C&amp;&quot;した&quot;"><Data
+      ss:Type="String">戦争した</Data></Cell>
+    <Cell ss:StyleID="s23" ss:Formula="=R3C&amp;&quot;し(て来)た&quot;"><Data
+      ss:Type="String">抗争し(て来)た</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヨウキュウ</PhoneticText><Data
+      ss:Type="String">要求し</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">キタイ</PhoneticText><Data
+      ss:Type="String">期待し</Data></Cell>
+    <Cell ss:StyleID="s23"><Comment ss:Author="LEE"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="ＭＳ Ｐゴシック"
+         x:CharSet="128" x:Family="Modern" html:Size="9" html:Color="#000000">LEE:</Font></B><Font
+        html:Face="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" html:Size="9"
+        html:Color="#000000">&#10;要チェック</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Comment ss:Author="LEE"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="ＭＳ Ｐゴシック"
+         x:CharSet="128" x:Family="Modern" html:Size="9" html:Color="#000000">LEE:</Font></B><Font
+        html:Face="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" html:Size="9"
+        html:Color="#000000">&#10;要チェック</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ドウメイ</PhoneticText><Data
+      ss:Type="String">同盟する</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">サクセイ</PhoneticText><Data
+      ss:Type="String">作成</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ケイセイ</PhoneticText><Data
+      ss:Type="String">形成</Data></Cell>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">コウショウ</PhoneticText><Data
+      ss:Type="String">交渉する</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ジュウヨウ</PhoneticText><Data
+      ss:Type="String">重要</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ムラヤマトミイチシュショウ</PhoneticText><Data
+      ss:Type="String">X[村山(富市)首相]</Data></Cell>
+    <Cell ss:StyleID="s61" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">値の指定[変項の]者</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">展望[+metaphoric]者</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">予見者</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">目標の指定[行為の]者</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">#によると</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#が</Data></Cell>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">コトシ</PhoneticText><Data
+      ss:Type="String">[今年</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ネン</PhoneticText><Data
+      ss:Type="String">X[1995年][+antecedent]</Data></Cell>
+    <Cell ss:StyleID="s51"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">アタイ</PhoneticText><Data
+      ss:Type="String">値</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=&quot;終時点[&quot;&amp;R3C&amp;&quot;の]: 現時点&quot;"><Data
+      ss:Type="String">終時点[経過[時間の]の]: 現時点</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">時期[終了の]</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">時期</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">時期</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=&quot;機会[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">機会[展望[+metaphoric]の]</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=&quot;機会[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">機会[予見の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ハイケイ</PhoneticText><Data
+      ss:Type="String">背景</Data></Cell>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">は]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#まで</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">#まで</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">#に({なっ,入っ}て)</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#に({なっ,入っ}て)</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニチ</PhoneticText><Data
+      ss:Type="String">[日</Data></Cell>
+    <Cell ss:StyleID="s62"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニホン</PhoneticText><Data
+      ss:Type="String">X[日本][+antecedent]</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]: 変項&quot;"><Data
+      ss:Type="String">対象[値の指定[変項の]の]: 変項</Data></Cell>
+    <Cell ss:StyleID="s68" ss:Formula="=&quot;始時点[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">始時点[経過[時間の]の]</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=R3C&amp;&quot;体: 事態&quot;"><Data
+      ss:Type="String">終結[事態の]体: 事態</Data></Cell>
+    <Cell ss:StyleID="s82" ss:Formula="=R3C&amp;&quot;者[1,2]&quot;"><Data
+      ss:Type="String">戦争者[1,2]</Data></Cell>
+    <Cell ss:StyleID="s76"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ジキ</PhoneticText><Data
+      ss:Type="String">時期[開始の]</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=R28C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">崩壊[+metaphoric]体.MOD</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=R28C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">消滅体.MOD</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=&quot;条件[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">条件[展望[+metaphoric]の]</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=&quot;条件[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">条件[予見の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">・</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">#と,が#</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="54">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ベイ</PhoneticText><Data
+      ss:Type="String">米</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ベイコクガッシュウコク</PhoneticText><Data
+      ss:Type="String">X[米国=アメリカ合衆国][+antecedent]</Data></Cell>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s82" ss:Formula="=R3C&amp;&quot;者[2,2]&quot;"><Data
+      ss:Type="String">戦争者[2,2]</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">#が,と#</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">戦~</Data></Cell>
+    <Cell ss:StyleID="s62"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ダイニジセカイタイセン</PhoneticText><Data
+      ss:Type="String">X[第二次世界大戦]</Data></Cell>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s82" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">戦争.GOV</Data></Cell>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">[の</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">シュウケツ</PhoneticText><Data
+      ss:Type="String">終結]</Data></Cell>
+    <Cell ss:StyleID="s62"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ネン</PhoneticText><Data
+      ss:Type="String">X[1945年]</Data></Cell>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s66" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">終結[事態の].GOV</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">後</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">#から</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">#から</Data></Cell>
+    <Cell ss:StyleID="s54"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">イライ</PhoneticText><Data
+      ss:Type="String">#以来の</Data></Cell>
+    <Cell ss:StyleID="s40"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">イライ</PhoneticText><Data
+      ss:Type="String">#以来の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">五十</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s74" ss:Formula="=R3C&amp;&quot;体: 期間&quot;"><Data
+      ss:Type="String">経過[時間の]体: 期間</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s35"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">キカン</PhoneticText><Data
+      ss:Type="String">期間</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">年</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">#が</Data><Comment ss:Author="LEE"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="ＭＳ Ｐゴシック"
+         x:CharSet="128" x:Family="Modern" html:Size="9" html:Color="#000000">LEE:</Font></B><Font
+        html:Face="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" html:Size="9"
+        html:Color="#000000">&#10;の？</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">#(を)</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">節目</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s73" ss:Formula="=R3C&amp;&quot;.EVO=PRED&quot;"><Data
+      ss:Type="String">経過[時間の].EVO=PRED</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">で</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">#だ</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">あり</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">、</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヒガシ</PhoneticText><Data
+      ss:Type="String">[東</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ガワショコクジョウヤクコク</PhoneticText><Data
+      ss:Type="String">X[東側諸国=ワルシャワ条約国]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29" ss:Formula="=R3C&amp;&quot;者[1,2][+metonymic]&quot;"><Data
+      ss:Type="String">抗争者[1,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=R28C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">崩壊[+metaphoric]体.MOD</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=R28C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">消滅体.MOD</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">#が,と#</Data></Cell>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニシ</PhoneticText><Data
+      ss:Type="String">西</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ガワショコクカメイコク</PhoneticText><Data
+      ss:Type="String">X[西側諸国=NATO加盟国]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29" ss:Formula="=R3C&amp;&quot;者[2,2][+metonymic]&quot;"><Data
+      ss:Type="String">抗争者[2,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">#と,が#</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">#の</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">冷~</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s76" ss:Formula="=R3C&amp;&quot;.EVO&quot;"><Data
+      ss:Type="String">抗争.EVO</Data><Comment ss:Author="LEE"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="ＭＳ Ｐゴシック"
+         x:CharSet="128" x:Family="Modern" html:Size="9" html:Color="#000000">LEE:</Font></B><Font
+        html:Face="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" html:Size="9"
+        html:Color="#000000">&#10;GOV？</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s55" ss:Formula="=R3C&amp;&quot;体&quot;"><Data
+      ss:Type="String">崩壊[+metaphoric]体</Data></Cell>
+    <Cell ss:StyleID="s42" ss:Formula="=R3C&amp;&quot;体&quot;"><Data
+      ss:Type="String">消滅体</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">戦</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">構造</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">*</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s85" ss:Formula="=&quot;原因[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">原因[崩壊[+metaphoric]の]</Data></Cell>
+    <Cell ss:StyleID="s81" ss:Formula="=&quot;原因[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">原因[消滅の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">#で,によって</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">#で,によって</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">崩壊</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s54" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">崩壊[+metaphoric].GOV</Data></Cell>
+    <Cell ss:StyleID="s40" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">消滅.GOV</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="54">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">し</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s54" ss:Formula="=R34C&amp;&quot;.SUP=&gt;#した&quot;"><Data
+      ss:Type="String">崩壊[+metaphoric].GOV.SUP=&gt;#した</Data></Cell>
+    <Cell ss:StyleID="s40" ss:Formula="=R34C&amp;&quot;.SUP=&gt;#した&quot;"><Data
+      ss:Type="String">消滅.GOV.SUP=&gt;#した</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#で</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#で</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">、</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="14" ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="54">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">世界</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s60" ss:Formula="=R[-34]C&amp;&quot;者[+metonymic]&quot;"><Data
+      ss:Type="String">要求者[+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s51" ss:Formula="=R[-34]C&amp;&quot;者[+metonymic]&quot;"><Data
+      ss:Type="String">期待者[+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=R46C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">場所[展望[+metaphoric]の]: 展望台.MOD</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=R46C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">時期[予見の].MOD</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">新</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s89" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[要求の]</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[期待の]</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">[しい]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">秩序</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">を</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">#を</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">求め</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s60" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">要求.GOV</Data></Cell>
+    <Cell ss:StyleID="s51" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">期待.GOV</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">て</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s58" ss:Formula="=R43C&amp;&quot;.EXT&quot;"><Data
+      ss:Type="String">要求.GOV.EXT</Data></Cell>
+    <Cell ss:StyleID="s61" ss:Formula="=R43C&amp;&quot;.EXT&quot;"><Data
+      ss:Type="String">期待.GOV.EXT</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">いる</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s59"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="54">
+    <Cell ss:StyleID="s23"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">イマ</PhoneticText><Data
+      ss:Type="String">[今</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ネンコロ</PhoneticText><Data
+      ss:Type="String">X[1995年頃][+anaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s92" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[要求の]</Data></Cell>
+    <Cell ss:StyleID="s93" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[期待の]</Data></Cell>
+    <Cell ss:StyleID="s95" ss:Formula="=&quot;場所[&quot;&amp;R3C&amp;&quot;の]: 展望台&quot;"><Data
+      ss:Type="String">場所[展望[+metaphoric]の]: 展望台</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[予見の]</Data></Cell>
+    <Cell ss:StyleID="s47" ss:Formula="=R55C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">同盟者[1,2][+metonymic].MOD</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[構築[+metaphoric]の]</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[形成[関係の]の]</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=R55C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">目的[交渉[国際的]の]&lt;1,2&gt;.MOD</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;時期[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">時期[重要性の指定の]</Data></Cell>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">#NULL</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">#NULL</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">時期</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="12" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">に</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="12" ss:StyleID="s27"><Data ss:Type="String">#から</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#から</Data></Cell>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">#の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">#に</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#だから,(な)ので</Data></Cell>
+   </Row>
+   <Row ss:Height="67.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">二十一</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[展望[+metaphoric]の]</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[予見の]</Data></Cell>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84" ss:Formula="=R55C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">構築[+metaphoric]者[1,2][+metonymic].MOD</Data></Cell>
+    <Cell ss:StyleID="s87" ss:Formula="=R55C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">形成[関係の]者[1,2][+metonymic].MOD</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=&quot;様態[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">様態[交渉[国際的]の]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64" ss:Formula="=R55C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">対象[重要性の指定の].MOD</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">世紀</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"/>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">を</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#を</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#を</Data></Cell>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">展望</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">展望[+metaphoric].GOV</Data></Cell>
+    <Cell ss:StyleID="s26" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">予見.GOV</Data></Cell>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">する</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27" ss:Formula="=R53C&amp;&quot;.SUP&quot;"><Data
+      ss:Type="String">展望[+metaphoric].GOV.SUP</Data></Cell>
+    <Cell ss:StyleID="s26" ss:Formula="=R53C&amp;&quot;.SUP&quot;"><Data
+      ss:Type="String">予見.GOV.SUP</Data></Cell>
+    <Cell ss:StyleID="s49"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">#しつつ</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="67.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">日</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニホン</PhoneticText><Data
+      ss:Type="String">X[日本][+anaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">展望[+metaphoric]者</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=R3C&amp;&quot;者&quot;"><Data
+      ss:Type="String">予見者</Data></Cell>
+    <Cell ss:StyleID="s50" ss:Formula="=R3C&amp;&quot;者[1,2][+metonymic]&quot;"><Data
+      ss:Type="String">同盟者[1,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s99" ss:Formula="=R3C&amp;&quot;者[1,2][+metonymic]&quot;"><Data
+      ss:Type="String">構築[+metaphoric]者[1,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s102" ss:Formula="=R3C&amp;&quot;者[1,2][+metonymic]&quot;"><Data
+      ss:Type="String">形成[関係の]者[1,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=&quot;目的[&quot;&amp;R3C&amp;&quot;の]&lt;1,2&gt;&quot;"><Data
+      ss:Type="String">目的[交渉[国際的]の]&lt;1,2&gt;</Data></Cell>
+    <Cell ss:StyleID="s58"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">モクテキギロン</PhoneticText><Data
+      ss:Type="String">目的[議論の][+specific]</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[重要性の指定の]</Data></Cell>
+    <Cell ss:StyleID="s95"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">モクヒョウアタイ</PhoneticText><Data
+      ss:Type="String">目標(の値)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s39"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">#と,が#</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">#と,が#</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">#と,が#</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="67.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">米</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ベイコクガッシュウコク</PhoneticText><Data
+      ss:Type="String">X[米国=アメリカ合衆国][+anaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"/>
+    <Cell ss:StyleID="s50" ss:Formula="=R3C&amp;&quot;者[2,2][+metonymic]&quot;"><Data
+      ss:Type="String">同盟者[2,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s99" ss:Formula="=R3C&amp;&quot;者[2,2][+metonymic]&quot;"><Data
+      ss:Type="String">構築[+metaphoric]者[2,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s102" ss:Formula="=R3C&amp;&quot;者[2,2][+metonymic]&quot;"><Data
+      ss:Type="String">形成[関係の]者[2,2][+metonymic]</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">#が,と#</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">#が,と#</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">#が,と#</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="54">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">親密~</Data></Cell>
+    <Cell ss:StyleID="s30"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニチベイニチメイアンポジョウヤク</PhoneticText><Data
+      ss:Type="String">X[日米安保条約]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s44" ss:Formula="=R3C&amp;&quot;.EVO=PRED: 同盟の関係&quot;"><Data
+      ss:Type="String">同盟.EVO=PRED: 同盟の関係</Data></Cell>
+    <Cell ss:StyleID="s35" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]: 関係&quot;"><Data
+      ss:Type="String">対象[構築[+metaphoric]の]: 関係</Data></Cell>
+    <Cell ss:StyleID="s55" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]: 関係&quot;"><Data
+      ss:Type="String">対象[形成[関係の]の]: 関係</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">な</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">関係</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s46"/>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">を</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">#を</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">#を</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">どう</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s29"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヨウタイ</PhoneticText><Data
+      ss:Type="String">様態[+wh]</Data></Cell>
+    <Cell ss:StyleID="s54"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ヨウタイ</PhoneticText><Data
+      ss:Type="String">様態[+wh]</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">#にかして</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">構築</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s99" ss:Formula="=R3C&amp;&quot;.GOV&quot;"><Data
+      ss:Type="String">構築[+metaphoric].GOV</Data></Cell>
+    <Cell ss:StyleID="s102" ss:Formula="=R3C&amp;&quot;.EVO=PRED&quot;"><Data
+      ss:Type="String">形成[関係の].EVO=PRED</Data></Cell>
+    <Cell ss:StyleID="s78" ss:Formula="=&quot;目的[&quot;&amp;R3C&amp;&quot;の]&lt;2,2&gt;&quot;"><Data
+      ss:Type="String">目的[交渉[国際的]の]&lt;2,2&gt;</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">する</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s99" ss:Formula="=R65C&amp;&quot;.SUP&quot;"><Data
+      ss:Type="String">構築[+metaphoric].GOV.SUP</Data></Cell>
+    <Cell ss:StyleID="s102" ss:Formula="=R65C&amp;&quot;.SUP&quot;"><Data
+      ss:Type="String">形成[関係の].EVO=PRED.SUP</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">か</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">#ために</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">#こと</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">が</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="18" ss:StyleID="s101"><Data ss:Type="String">#について</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">#が</Data></Cell>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">今度</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s81" ss:Formula="=&quot;機会[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">機会[交渉[国際的]の]</Data></Cell>
+    <Cell ss:StyleID="s58" ss:Formula="=R71C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">機会[議論の].MOD</Data></Cell>
+    <Cell ss:StyleID="s61" ss:Formula="=R71C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">機会[議論の].MOD</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=R71C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">対象[目標の指定[行為の]の].MOD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#NULL</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">日</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ニホン</PhoneticText><Data
+      ss:Type="String">X[日本][+anaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s81" ss:Formula="=R3C&amp;&quot;者: 国[1,2]&quot;"><Data
+      ss:Type="String">交渉[国際的]者: 国[1,2]</Data></Cell>
+    <Cell ss:StyleID="s58"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">キカイ</PhoneticText><Data
+      ss:Type="String">機会[議論の]</Data></Cell>
+    <Cell ss:StyleID="s61"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">キカイ</PhoneticText><Data
+      ss:Type="String">機会[議論の]</Data></Cell>
+    <Cell ss:StyleID="s95" ss:Formula="=&quot;対象[&quot;&amp;R3C&amp;&quot;の]&quot;"><Data
+      ss:Type="String">対象[目標の指定[行為の]の]</Data></Cell>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">米</Data></Cell>
+    <Cell ss:StyleID="s34"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ベイコク</PhoneticText><Data
+      ss:Type="String">X[米国][+anaphoric]</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s81" ss:Formula="=R3C&amp;&quot;者: 国[2,2]&quot;"><Data
+      ss:Type="String">交渉[国際的]者: 国[2,2]</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#の</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">首脳</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s42" ss:Formula="=R3C&amp;&quot;者[1,2][2,2]&quot;"><Data
+      ss:Type="String">交渉[国際的]者[1,2][2,2]</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">**</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#が</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="27">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">会談</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="14" ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s40" ss:Formula="=R3C&amp;&quot;.EVO&quot;"><Data
+      ss:Type="String">交渉[国際的].EVO</Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">の</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">#で</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">#で</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">#で</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">#の</Data></Cell>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">大き~</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s58" ss:Formula="=R80C&amp;&quot;.MOD=&gt;重要&quot;"><Data
+      ss:Type="String">議論.EVO: 議題.MOD=&gt;重要</Data></Cell>
+    <Cell ss:StyleID="s61" ss:Formula="=R3C&amp;&quot;.EVO=PRED&quot;"><Data
+      ss:Type="String">重要性の指定.EVO=PRED</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=R80C&amp;&quot;.MOD&quot;"><Data
+      ss:Type="String">目標の指定[行為の].EVO: 目標.MOD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">な</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">#だ</Data></Cell>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:Height="40.5">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">課題</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s92" ss:Formula="=R3C&amp;&quot;.EVO: 議題&quot;"><Data
+      ss:Type="String">議論.EVO: 議題</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s32" ss:Formula="=R3C&amp;&quot;.EVO: 目標&quot;"><Data
+      ss:Type="String">目標の指定[行為の].EVO: 目標</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">だ</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">#について</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">#だ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">。</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"># S-ID:950101008-032 KNP:96/10/27 MOD:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">%% English</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">In this 50th anniversary of the end of the war, with the paradigm of the Cold War collapsed and a new order required throughout the world, the substantial problem of the next Japan-U.S. summit meeting is how we establish a close relationship between Japan and the U.S., which leads the way in the 21st century.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">%% created by jhlee on 07/17/2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">%% modified by kkuroda on 10/16, 07/18/2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">%% modified by kkuroda on 02/19/2008</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51200000000000001"/>
+    <Footer x:Margin="0.51200000000000001"/>
+    <PageMargins x:Bottom="0.98399999999999999" x:Left="0.78700000000000003"
+     x:Right="0.78700000000000003" x:Top="0.98399999999999999"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>4</SplitHorizontal>
+   <TopRowBottomPane>64</TopRowBottomPane>
+   <SplitVertical>2</SplitVertical>
+   <LeftColumnRightPane>7</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>4</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>69</ActiveRow>
+     <ActiveCol>13</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

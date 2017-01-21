@@ -1,0 +1,31 @@
+require 'rubygems'
+require 'mechanize'
+
+domain = ARGV[0] || "http://127.0.0.1:3000"
+
+cache_dir = nil
+puts "Logging in ... "
+agent = WWW::Mechanize.new
+agent.user_agent_alias = 'Mechanize' 
+login_page = agent.get(domain + "/amps/account/login")
+form = login_page.forms.first
+form.login = 'test'
+form.password = 'test'
+top_page = agent.submit(form)
+puts "done successfully."
+msfa_list = top_page.links.select{|link|link.href.index('/amps/sentence/list')}.first.click
+msfa_links = msfa_list.links.select{|link|link.href.index('/amps/sentence/show_html')}
+msfa_links.each_with_index do |link, i|
+  page = link.click
+  puts link.href + " accessed"
+  img_page = page.links.select{|link|link.href.index('/amps/sentence/show_img')}.first
+  /.*\/(\d+)/ =~ img_page.href
+  img = "/amps/sentence/generate_img/#{$1}.png"
+  agent.get(img)
+  puts img + " accessed"
+  File.open("msfa_" + i.to_s + ".txt", "w") do |f|
+    f.write(page.body)
+  end if cache_dir
+end
+puts "make cache completed!"
+

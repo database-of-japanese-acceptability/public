@@ -1,0 +1,85 @@
+print "Loading DB ... "
+
+CURRENT_DIR = File.dirname(__FILE__)
+$LOAD_PATH << File.join(CURRENT_DIR, '..', 'config')
+$LOAD_PATH << File.join(CURRENT_DIR, '..', 'lib')
+
+require 'rubygems'
+require 'activerecord'
+require 'boot'
+require 'environment'
+require 'rake'
+require 'rake/testtask'
+require 'rake/rdoctask'
+require 'tasks/rails'
+require 'db_converter'
+
+puts "done"
+
+puts "******************************************************"
+puts "* All objects stored in DB (except for those of user *"
+puts "* and wiki) and all the cache files will be cleared  *"
+puts "******************************************************" 
+message = "-- Is that OK? [yes or no] >> "
+print message
+while res = STDIN.gets.chomp
+  if /^[Nn]o?$/ =~ res
+    exit
+  elsif /^[Yy](es)?$/ =~ res
+    break
+  end
+  print message
+end
+
+puts "Starting DB reset"
+
+# easiest way, removing all the DB data including those of user and wiki
+# Rake::Task["db:reset"].invoke
+# puts 'DB reset done'
+
+models = [Sentence, Construction,
+FComposition, Frame, FrameSet, SFrame, SFrameSet, 
+MComposition, Morpheme, MorphemeSet, SMorpheme, SMorphemeSet,
+PComposition, EComposition, Primitive, SElement,  
+SPhrase, Phrase, RComposition,
+Relation, SRelation]
+
+models.each do |m|
+  m.delete_all
+end
+
+FileUtils.rm_r(Dir.glob(File.join(RAILS_ROOT, 'tmp', 'cache', '*')))
+FileUtils.rm_r(Dir.glob(File.join(RAILS_ROOT, 'public', 'sentence', '*')))
+
+config = YAML.load_file(File.join(CURRENT_DIR, '..', 'config/database.yml'))
+ActiveRecord::Base.establish_connection(
+  config['development']
+)
+
+files = Dir.entries(FILE_DIR).delete_if do |file|
+         bn = File.basename(file)
+         /.*\.xml$/ !~ bn
+        end.sort.reverse
+num_files = files.size
+gstart = Time.now
+file_index = 0
+
+puts "Starting DB conversion"
+
+files.each do |basename|  
+  fstart = Time.now
+  file_index += 1
+  print "[" + file_index.to_s + "] " + basename
+  
+  db_converter = DBConverter.new(basename)
+  db_converter.convert
+  
+  print " finished. ("
+  ffinish = Time.now
+  ftime = ffinish - fstart
+  puts ftime.to_s + " sec.)"
+end
+gfinish = Time.now
+gtime = gfinish - gstart
+puts "All #{num_files.to_s} conversion has completed!"
+puts gtime.to_s + " sec."

@@ -1,0 +1,12 @@
+<div style='text-align:right'><%= flash[:message] %></div>
+<!--%= search_link(@sentences, @keyword) %-->
+<h3>MSFA List</h3>
+<%= render :partial => 'layouts/search_box' %>
+<table>
+  <% @sentences.each do |s| %>
+    <tr>
+      <td><%= highlight(s.morpheme_set.phon, @keyword) %></td>
+      <td><%= link_to(s.filename, :controller=>"sentence", :action=>"show_html", :id=>s) %></td>
+    </tr>
+  <% end %>
+</table>

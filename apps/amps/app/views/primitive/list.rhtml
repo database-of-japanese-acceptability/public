@@ -1,0 +1,71 @@
+
+<div id="top" style='text-align:right'><%= flash[:message] %></div>
+<!--%= search_link(@s_elements, @keyword) %-->
+
+<h3>Element List</h3>
+<%= render :partial => 'layouts/search_and_filter' %>
+<%= @graph %>
+
+<% cache do %>
+
+<% if @s_elements_gov_evo.size > 0 %>
+<div style="text-align:right" id="evokers"><a href="#top">Top</a></div>
+<h4 id ="evokers">FrameElements <span style='font-size:small'>(Evokers: {f.EVO(=PRED), f.GOV})</span></h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_gov_evo.sort_by{|sp|[/\.(.+)\z/.match(sp.form).to_a[1].to_s, -sp.primitives_count]}.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+<% end %>
+  
+  
+<% if @s_elements_else.size > 0 %>
+<div style="text-align:right" id="nonevokers"><a href="#top">Top</a></div>
+<h4>FrameElements <span style='font-size:small'>(Non-Evokers)</span></h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_else.sort_by{|sp|[/\.(.+)\z/.match(sp.form).to_a[1].to_s, -sp.primitives_count]}.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+
+</table>
+
+
+<% end %>
+
+
+<% if @s_elements_const.size > 0 %>
+<div style="text-align:right" id="constants"><a href="#top">Top</a></div>
+<h4>Constant Elements (<span style='font-size:small'>Pattern Elements, Non-FrameElements</span>)</h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_const.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+
+<% end %>
+
+<% end %>

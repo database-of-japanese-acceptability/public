@@ -1,0 +1,9 @@
+<h3>Subclasses of Morpheme <%= @s_morpheme.form %></h3>
+<table>
+  <% @morpheme_array.each do |key, value| %>
+    <tr>
+    <td><%= link_to(key + ' (' +  value.length.to_s + ')', 
+                    :controller=>"morpheme", :action=>"show", :form => key) %></td>
+    </tr>
+  <% end %>
+</table>

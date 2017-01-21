@@ -1,0 +1,8 @@
+<h1>Stats#index</h1>
+<img src='<%= @gchart_url %>'>
+<ol>
+  <% @top_ten_frames. each do |e| %>
+    <li><%= e.form %></li>
+  <% end %>
+</ol>
+

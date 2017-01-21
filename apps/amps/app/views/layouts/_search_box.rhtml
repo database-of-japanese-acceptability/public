@@ -1,0 +1,16 @@
+<div class='search_box'>
+<%= form_tag(:action=>'search') %>
+<table>
+<tr>
+<td><b>Search</b>&nbsp;&nbsp;</td>
+<td>Regexp<%= check_box(:search, :regexp, :checked => @regexp) %>
+  <%= text_field(:search, :text, :value => @keyword) %></td>
+<td>
+<%= submit_tag("&nbsp;Do&nbsp;") %>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div style='clear:both'></div>
+<br />

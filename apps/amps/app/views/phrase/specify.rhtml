@@ -1,0 +1,10 @@
+<h3>Braeakdown of Phrase <%= @s_phrase.form %></h3>
+<table>
+  <% @phrase_array.each do |key, value| %>
+    <tr>
+    <td><%= link_to(key + ' (' + value.length.to_s + ')',
+      :action=>"show", :id => value.collect(&:id).uniq.join('-'), :form => key,
+      :method => :post) %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,7 @@
+#! /bin/sh
+cd $(dirname $0)/..;
+echo "Welcome to AMPS";
+echo "Access 'http://localhost:4001' on your web-browser";
+echo "To shutdown VM, press Ctrl+C";
+open "http://localhost:4001"
+docker-compose up;

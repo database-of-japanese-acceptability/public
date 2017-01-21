@@ -1,0 +1,24 @@
+<h3>MSFA containing FrameElement <%= @form %>
+  <% if @ex_key == :frame %>
+  with Frame <%= @ex_value %>
+  <% elsif @ex_key == :morph %>
+  with Morpheme <%= @ex_value %>
+  <% end %>
+</h3>
+<!--%= find_link(@sentences, @form, @ids) %-->
+</h3>
+<table>
+  <% @sentences.each do |s| %>
+    <tr>
+    <% if @ex_key == :frame %>
+    <td><%= highlight(s.frame_set.form, '/' + @ex_value) %></td>
+    <% elsif @ex_key == :morph %>
+      <td><%= highlight(s.morpheme_set.form, @ex_value) %></td>
+    <% else %>
+      <td><%= s.morpheme_set.form %></td>
+    <% end %>    
+    <td><%= link_to(s.filename, :controller=>"sentence", :action => :show_html, :id=>s) %></td>
+    </tr>
+  <% end %>
+</table>
+<%= @test %>

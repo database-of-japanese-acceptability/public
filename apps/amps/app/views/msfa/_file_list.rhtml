@@ -1,0 +1,58 @@
+<p><div id='message'><%= flash[:message] %></div></p>
+<%= image_tag 'loading.gif', :id=>'spinner', :style=>"display:none;" %>
+
+<% if false %>
+<% if !@not_converted.empty? %>
+  <p><%= link_to_remote "[未変換のファイルを一括変換（最大5ファイル）]",
+                   :url => {:action => 'convert_all'},
+                   :update => 'file_list',
+                   :before => %($('message').innerHTML='データ変換中：ブラウザを操作しないでください（データ破損のおそれがあります）。'; Element.show('spinner')),
+                   :confirm => "変換を開始しますか？\n変換終了までに数分かかります。",
+                   :complete => %(Element.hide('spinner'))
+  %></p>
+<% else %>
+  <p>現在未変換のファイルはありません。</p>
+<% end %>
+<% end %>
+
+<% unless @not_converted.empty? %>
+  <h3>未変換のMSFAファイル</h3>
+  <table id='not_converted'>
+  <% @not_converted.each do |f| %>
+  <tr>
+  <td><%= File.basename(f)%></td>
+  <td><%= link_to_remote "変換",
+                         :url => {:action => 'convert', :filename => f},
+                         :update => 'file_list',
+                         :before => %($('message').innerHTML='データ変換中：ブラウザを操作しないでください（データ破損のおそれがあります）。'; Element.show('spinner')),
+                         :complete => %(Element.hide('spinner'))
+                         %>  
+  <td><%= link_to_remote "ファイル削除",
+                         :url => {:action => 'delete_file', :filename => f},
+                         :update => 'file_list',
+                         :before => %($('message').innerHTML=''; Element.show('spinner')),      
+                         :complete => %(Element.hide('spinner')),
+                         :confirm=>"削除してよろしいですか？" 
+                         %></td>
+  </tr>
+  <% end %>
+  </table>
+<% end %>
+
+<% unless @converted.empty? %>
+  <h3>変換済みMSFAファイル</h3>
+  <table id='converted'>
+  <% @converted.each do |s| %>
+  <tr>
+  <td><%= File.basename(s.filename)%></td>
+  <td><%= link_to_remote "データ削除",
+                         :url => {:action => 'delete', :id => s},
+                         :update => 'file_list',
+                         :before => %($('message').innerHTML='データ削除中：ブラウザを操作しないでください（データ破損のおそれがあります）。'; Element.show('spinner')),
+                         :complete => %(Element.hide('spinner')),
+                         :confirm=>"削除してよろしいですか？"
+                         %></td>
+  </tr>
+  <% end %>
+  </table>
+<% end %>

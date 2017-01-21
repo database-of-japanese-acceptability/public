@@ -1,0 +1,18 @@
+<div id='wiki_body'>
+<%= form_tag(:controller => :wiki, :action => :save, :method => :post)%>
+  <p>
+    <label for="identifier">Identifier</label><br />
+    <input id ="identifier" name="page[identifier]" size="30" type="text" value=<%= @identifier %> />
+  <p>
+    <label for="title">Title</label><br />
+    <input id="title" name="page[title]" size="30" type="text" value="" />
+  </p>
+  <p>
+    <label for="body">Body</label><br />
+    <textarea cols="80" id="body" name="page[body]" rows="20"></textarea>
+  </p>
+  <input type='submit' value='Save' />
+  <%= link_to("<span style='font-size:small'>[キャンセル]</span>", 
+    {:action => :index}, :confirm => '破棄してよろしいですか？') %>
+</form>&nbsp;
+</div>

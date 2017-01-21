@@ -1,0 +1,17 @@
+<h3>Instances of Relation 'X <%= @nature %> Y'</h3>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @r_array.each do |key, value| %>
+    <%  i += 1; mod = i % 2 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%= link_to(key.gsub("_", " ") + " (" + value.size.to_s + ")",
+      :controller => :frame, :action => :show, 
+      :id => value.collect(&:source).uniq.collect{|sid|Frame.find(sid).frame_set.id}.uniq.join('-'),
+      :form => "Frame-to-Frame Relation '" + key +"'")%>
+    </td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (2 - mod) + "</tr>" %>
+  <% end %>
+</table>

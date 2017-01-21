@@ -1,0 +1,7 @@
+<%= stylesheet_link_tag 'msfa' %>
+<div class="sub_menu">
+<span class='menu'><%= link_to "HTML",:action => 'show_html', :id => @id %></span>
+<span class='menu'><%= link_to "PNG", :action => 'show_img', :id => @id %></span>
+<span class='menu'><%= link_to "DOT", :action => 'dl_dot', :id => @id %></span>
+<span class='menu'><%= link_to "EXCEL(XML)", :action => 'dl_excel', :id => @id %></span>
+</div>

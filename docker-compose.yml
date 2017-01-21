@@ -1,0 +1,9 @@
+amps:
+  build: "./apps"
+  container_name: "amps_app"
+  working_dir: "/root"
+  ports:
+    - "4001:4001"
+  volumes:
+    - ${PWD}/data:/root/amps/data
+  command: /root/.rbenv/shims/thin start -p 4001 -c /root/amps

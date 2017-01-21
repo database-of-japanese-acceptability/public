@@ -1,0 +1,10 @@
+<h3>MSFA containing Frame <%= @form %></h3>
+<!--%= find_link(@frame_sets, @form) %-->
+<table>
+  <% @frame_sets.each do |fs| %>
+    <tr>
+    <td><%= highlight(fs.form, '/' + @form + '/') %></td>
+    <td><%= link_to(fs.sentence.filename, :controller=>"sentence", :action=>"show_html", :id=>fs) %>
+    </tr>
+  <% end %>
+</table>

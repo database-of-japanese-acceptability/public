@@ -1,0 +1,17 @@
+<div style='text-align:right'><%= flash[:message] %></div>
+<h3>Phrase List</h3>
+<%= render :partial => 'layouts/search_and_filter' %>
+<%= render :partial => 'layouts/order_by' %>
+<table>
+  <% i = 0; num_columns = 6; mod = 0 %>
+  <% @s_phrases.each do |sp| %>
+    <%  i += 1; mod = i % num_columns %>
+    <%= "<tr>"  if mod == 1 %>
+    <% label = (sp.form == "" ? "NULL" : sp.form) %>    
+    <td><%= link_to(label + " (" + sp.phrases_count.to_s + ")", :action=>"specify", :id => sp.id) %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (num_columns - mod) + "</tr>" %>
+  <% end %>
+</table>

@@ -1,0 +1,52 @@
+<%= javascript_include_tag :defaults %>
+<%= javascript_include_tag 'drag_scrollable' %>
+<%= render :partial => 'control' %>
+<p><%= @sentence.filename %><br />
+<%= @morpheme_set.phon %></p>
+<div id ='msfa'>
+<table width="<%= 80 * (@frames.length + 1) %>">
+<tr>
+  <td>Frame ID</td>
+<% @frames.each do |f| %>
+  <td><%= f.fid %></td>
+<% end %>
+</tr>
+<tr>
+  <td>Frame-to-Frame Relations</td>
+<% @frames.each do |f| %>
+  <td><%= f.relation %></td>
+<% end %>
+</tr>
+<tr>
+  <td>Frame Name</td>
+<% @frames.each do |f| %>
+  <td><%= link_to_frame(f) %></td>
+<% end %>
+</tr>
+<% @morphemes.each do |m| %>
+  <tr style='border: 0;'>
+  <td><%= link_to_morpheme(m) %></td>
+  <% primitives = m.primitives %>
+  <% @frames.each do |f| %>
+    <% if primitives.first and primitives.first.frame == f %>
+      <% p = primitives.shift %>
+      <% if p.morphemes.first == m %>
+        <td bgcolor='<%= p.color %>' style='border-bottom: 0;'>
+      <% elsif p.morphemes.last == m %>
+        <td bgcolor='<%= p.color %>' style='border-top: 0;'>
+      <% else %>
+        <td bgcolor='<%= p.color %>' style='border-top: 0; border-bottom: 0'%>
+      <% end %>
+      <%= p.morphemes.first == m ? link_to_sprim(p)  : "" %>
+      </td>
+    <% else %>
+      <td></td>
+    <% end %>
+  <% end %>
+  </tr>
+<% end %>
+</table>
+</div>
+<script>
+new DragScrollable('msfa');
+</script>

@@ -1,0 +1,17 @@
+<h3>Subclasses of FrameElement <%= @s_element.form %></h3>
+<table>
+  <% @primitive_array.each do |key, parray| %>
+    <tr>
+    <% total = parray.inject(0){ |sum, p| sum += p[1].length }.to_s %>
+    <td><%= key +' (' + total  +')' %></td>
+    <td>
+    <% parray.each do |p| %>
+      <% str = p[0] != "" ? p[0] : "NULL FORM" %>
+      <%= link_to( str + ' (' + p[1].length.to_s + ')',
+          :action=>"show", :id => p[1].collect(&:id).join('-'), :form => key, 
+          :morph => p[0], :method => :post) %><br />
+    <% end %>
+    </td>
+    </tr>
+  <% end %>
+</table>

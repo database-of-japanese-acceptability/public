@@ -1,0 +1,57 @@
+<div style='text-align:right'><%= flash[:message] %></div>
+<!--%= search_link(@s_elements, @keyword) %-->
+<% if @s_elements_gov_evo.size > 0 %>
+<h3>Element List <%= @keyword %></h3>
+<%= render :partial => 'layouts/search_and_filter' %>
+<h4>FrameElements <span style='font-size:small'>(Evokers: {f.EVO(=PRED), f.GOV})</span></h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_gov_evo.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+<% end %>
+
+<% if @s_elements_else.size > 0 %>
+<h4>FrameElements <span style='font-size:small'>(Non-Evokers)</span></h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_else.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+<% end %>
+
+
+<% if @s_elements_const.size > 0 %>
+<h4>Constant Elements (<span style='font-size:small'>Pattern Elements, Non-FrameElements</span>)</h4>
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_elements_const.each do |sp| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(sp.form + "(" + sp.primitives_count.to_s + ")", {:action=>"specify", :id=>sp})
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+<% end %>
+
+

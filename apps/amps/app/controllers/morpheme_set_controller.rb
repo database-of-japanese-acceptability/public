@@ -1,0 +1,2 @@
+class MorphemeSetController < ApplicationController
+end

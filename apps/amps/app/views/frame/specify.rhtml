@@ -1,0 +1,70 @@
+<% if @to_array %>
+<h3>Frame-to-Frame Relationships involving Frame <%= @s_frame.form %></h3>
+<table style='margin-right:20px; float:left'>
+  <th style='text-align:center'><%= @s_frame.form %> => X</th>
+  <% @to_array.each do |rel, value| %>
+    <tr>
+    <td><%= link_to(rel + " (" + value.size.to_s + ")",
+      :controller => :frame, :action => :show, 
+      :id => value.collect(&:source).uniq.collect{|sid|Frame.find(sid).frame_set.id}.uniq.join('-'),
+      :form => "Frame-to-Frame Relation '" + rel + "'")%>
+    </td>
+  <% end %>
+</table>
+<% end %>
+
+<% if @from_array %>
+<table>
+  <th style='text-align:center'>X => <%= @s_frame.form %></th>
+  <% @from_array.each do |rel, value| %>
+    <tr>
+    <td><%= link_to(rel + " (" + value.size.to_s + ")",
+       :controller => :frame, :action => :show, 
+      :id => value.collect(&:target).uniq.collect{|sid|Frame.find(sid).frame_set.id}.uniq.join('-'),
+      :form => "Frame-to-Frame Relation '" + rel + "'")%>
+    </td>
+  <% end %>
+</table>
+<% end %>
+
+<div style='clear:both;'></div>
+<h3>Subclasses of Frame <%= @s_frame.form %></h3>
+<table>
+  <% @frame_array.each do |key, value| %>
+    <tr>
+    <td><%= link_to(key + ' (' +  value.length.to_s + ')', 
+                    :controller=>"frame", :action=>"show", 
+                    :id => value.collect(&:frame_set).collect(&:id).join('-'),
+                    :form => key) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<h3>List of FrameElements contained in Frame <%= @s_frame.form %></h3>
+
+<% if false %>
+  <img  style='margin-right:20px;float:left' src='<%= url_for :controller => :frame, :action => :pie_graph,
+                :id => @s_frame.id %>.png' />
+<% end %>
+
+<table>
+  <% i = 0; mod = 0 %>
+  <% @s_element_array.each do |key, value| %>
+    <%  i += 1; mod = i % 4 %>
+    <%= "<tr>"  if mod == 1 %>
+    <td><%=link_to(key + "(" + value.length.to_s + ")", 
+             :controller=>"primitive", :action=>"show", 
+             :id=> value.collect{|p|p.frame.frame_set.id}.uniq.join('-'),
+             :form => key,
+             :frame => @s_frame.form)
+        %></td>
+    <%= "</tr>" if mod == 0 %>    
+  <% end %>
+  <% unless mod == 0 %>
+    <%= "<td></td>" * (4 - mod) + "</tr>" %>
+  <% end %>
+</table>
+
+<div style='margin-top: 20px;'>
+<%= @graph %>
+</div>

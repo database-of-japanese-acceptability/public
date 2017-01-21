@@ -1,0 +1,23 @@
+<div class='search_box'>
+<%= form_tag(:action => 'search') %>
+<table>
+<tr>
+<td><b>Search</b>&nbsp;&nbsp;</td>
+<td>Regexp<%= check_box(:search, :regexp, :checked => @regexp) %>
+  <%= text_field(:search, :text, :value => @keyword) %></td>
+<td></td>
+</tr><tr>
+<td><b>Filter</b>&nbsp;&nbsp;</td>
+<td>Freq. &#8805;
+  <% choices = [] %>
+  <% 10.times do |i| %>
+  <%   choices << [i + 1, i] %>
+  <% end %>
+  <%= select("filter", "freq", choices, :selected => @ffreq.to_i) %></td>
+<td><input type="hidden" name="order_by" value="<%= @params[:order_by] %>">
+<%= submit_tag("&nbsp;Do&nbsp;") %></td>
+</tr>
+</table>
+</form>
+</div>
+<div style='clear:both'></div>
